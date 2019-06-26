@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "75391645-6ad4-4e67-b3fa-be03f84ecb67": {
+        "id": "75391645-6ad4-4e67-b3fa-be03f84ecb67",
+        "parent": null,
+        "name": "334_issueverify",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a201d706-35a1-47dc-8b61-69dc02a61fcb",
+          "41d8ee85-e06c-401d-88b4-d187e6282675"
+        ],
+        "isRemovable": false,
+        "filePath": "334_issueverify"
+      },
+      "a201d706-35a1-47dc-8b61-69dc02a61fcb": {
+        "id": "a201d706-35a1-47dc-8b61-69dc02a61fcb",
+        "parent": "75391645-6ad4-4e67-b3fa-be03f84ecb67",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "334_issueverify/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "41d8ee85-e06c-401d-88b4-d187e6282675": {
+        "id": "41d8ee85-e06c-401d-88b4-d187e6282675",
+        "parent": "75391645-6ad4-4e67-b3fa-be03f84ecb67",
+        "name": "testfile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "334_issueverify/testfile.js",
+        "code": "//before first deployment"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "75391645-6ad4-4e67-b3fa-be03f84ecb67",
+    "openFiles": [
+      "a201d706-35a1-47dc-8b61-69dc02a61fcb",
+      "41d8ee85-e06c-401d-88b4-d187e6282675"
+    ],
+    "currentFileId": "41d8ee85-e06c-401d-88b4-d187e6282675",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "334_issueverify",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1561545625321
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "334_issueverify",
+      "url": "https://github.com/HirudineeADRT/334_issueverify"
+    }
+  }
+}
